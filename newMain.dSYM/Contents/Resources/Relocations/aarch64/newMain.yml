@@ -1,0 +1,22 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/amanoni/Desktop/429Prog3/newMain'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _compareStanzas, symObjAddr: 0x0, symBinAddr: 0x1000027B0, symSize: 0x28 }
+  - { offsetInCU: 0x158, offset: 0x158, size: 0x8, addend: 0x0, symName: _compareStanzas, symObjAddr: 0x0, symBinAddr: 0x1000027B0, symSize: 0x28 }
+  - { offsetInCU: 0x18E, offset: 0x18E, size: 0x8, addend: 0x0, symName: _createNode, symObjAddr: 0x28, symBinAddr: 0x1000027D8, symSize: 0xE0 }
+  - { offsetInCU: 0x20A, offset: 0x20A, size: 0x8, addend: 0x0, symName: _createGraph, symObjAddr: 0x108, symBinAddr: 0x1000028B8, symSize: 0x8C }
+  - { offsetInCU: 0x26A, offset: 0x26A, size: 0x8, addend: 0x0, symName: _freeNode, symObjAddr: 0x194, symBinAddr: 0x100002944, symSize: 0x48 }
+  - { offsetInCU: 0x28E, offset: 0x28E, size: 0x8, addend: 0x0, symName: _freeGraph, symObjAddr: 0x1DC, symBinAddr: 0x10000298C, symSize: 0x7C }
+  - { offsetInCU: 0x2CE, offset: 0x2CE, size: 0x8, addend: 0x0, symName: _parseIDList, symObjAddr: 0x258, symBinAddr: 0x100002A08, symSize: 0x170 }
+  - { offsetInCU: 0x34A, offset: 0x34A, size: 0x8, addend: 0x0, symName: _parseFile, symObjAddr: 0x3C8, symBinAddr: 0x100002B78, symSize: 0x690 }
+  - { offsetInCU: 0x4E9, offset: 0x4E9, size: 0x8, addend: 0x0, symName: _compareNodes, symObjAddr: 0xA58, symBinAddr: 0x100003208, symSize: 0x40 }
+  - { offsetInCU: 0x53B, offset: 0x53B, size: 0x8, addend: 0x0, symName: _compareInts, symObjAddr: 0xA98, symBinAddr: 0x100003248, symSize: 0x28 }
+  - { offsetInCU: 0x571, offset: 0x571, size: 0x8, addend: 0x0, symName: _sortNodes, symObjAddr: 0xAC0, symBinAddr: 0x100003270, symSize: 0x3C }
+  - { offsetInCU: 0x595, offset: 0x595, size: 0x8, addend: 0x0, symName: _getNode, symObjAddr: 0xAFC, symBinAddr: 0x1000032AC, symSize: 0x98 }
+  - { offsetInCU: 0x5E7, offset: 0x5E7, size: 0x8, addend: 0x0, symName: _dfs, symObjAddr: 0xB94, symBinAddr: 0x100003344, symSize: 0x3CC }
+  - { offsetInCU: 0x6FE, offset: 0x6FE, size: 0x8, addend: 0x0, symName: _sortOutputIDs, symObjAddr: 0xF60, symBinAddr: 0x100003710, symSize: 0x3C }
+  - { offsetInCU: 0x742, offset: 0x742, size: 0x8, addend: 0x0, symName: _sortInputIDs, symObjAddr: 0xF9C, symBinAddr: 0x10000374C, symSize: 0x3C }
+  - { offsetInCU: 0x768, offset: 0x768, size: 0x8, addend: 0x0, symName: _printTruthTable, symObjAddr: 0xFD8, symBinAddr: 0x100003788, symSize: 0x408 }
+  - { offsetInCU: 0x8D8, offset: 0x8D8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x13E0, symBinAddr: 0x100003B90, symSize: 0xC8 }
+...

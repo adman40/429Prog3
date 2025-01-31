@@ -1,0 +1,1 @@
+gcc -o hw3 newMain.c 
